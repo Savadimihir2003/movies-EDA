@@ -13,8 +13,7 @@ This project is a Streamlit-based interactive data exploration dashboard that an
 
 ## Installation
 1. **Clone the repository.**
-2. **Install the dependencies:**
-   pip install streamlit pandas numpy altair
+2. **Install the dependencies:** pip install streamlit pandas numpy altair
 3.**Run the application:**
   streamlit run dashboard.py
 
