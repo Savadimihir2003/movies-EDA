@@ -19,7 +19,7 @@ with st.expander('About this app'):
 st.subheader('Which Movie Genre performs ($) best at the box office?')
 
 # Load data - Read CSV into a Pandas DataFrame
-df = pd.read_csv('data/movies_genres_summary.csv')
+df = pd.read_csv('movies_genres_summary.csv')
 df.year = df.year.astype('int')
 
 # Genres selection - Create dropdown menu for genre selection
